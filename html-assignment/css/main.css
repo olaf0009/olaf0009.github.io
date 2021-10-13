@@ -3,27 +3,28 @@ body{
 }
 h1,footer{
     background-color:aquamarine;
-    width: 500px;
     height: 250;
+    width: 500px;
 }
 .topic{
     color:red;
 }
-#images{
+images{
     box-shadow:0 0 2px 1px black;
 }
 li:nth-child(2n-1){
     background-color:orange;
-    width: 60px;
     height:20px;
+    width: 60px;
+    
 }
 nav{
     background-color:cadetblue;
-    width: 60px;
-    height:20px;
     border:darkblue 2px ridge;
+    height:20px;
+    width: 60px;
 }
 a:hover{
-    background-color:pink;
-    color:rebeccapurple;
+    background-color:yellow;
+    color:green;
 }
