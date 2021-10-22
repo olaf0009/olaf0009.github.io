@@ -9,7 +9,7 @@ h1,footer{
 .topic{
     color:red;
 }
-images{
+.images{
     box-shadow:0 0 2px 1px black;
 }
 li:nth-child(2n-1){
