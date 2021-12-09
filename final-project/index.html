@@ -5,6 +5,9 @@
 <!-- Document Information -->
     <meta charset="utf-8">
     <title>Three Star Media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/icons.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,48 +15,48 @@
 
     <div class="container">
         <header>
-            <img src="images/logo.png" alt="Three Star Logo">
-
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
+            <div class="logo_box">
+            <img class="header_logo" src="images/logo.png" alt="Three Star Logo">
+            </div>
+            <nav>
+                <ul>
+                <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-                <div class="searchbar">
-                    <form action="index.html" method ="get">
-                    <label for="search">
-                    <input id="search" type="text" class="search" name="search" placeholder="Search">
-                    </label>
-                    <button type="submit"> GO</button>
-                    </form>
+                </ul>
+            </nav>
+            <div class="search_bar">
+                <form action="index.html" method="get">
+                <label for="search"></label>
+                <input type="text" id="search" name="search" placeholder="Search">
+                <button type="submit"><i class="icon icon-zoom"></i></button>
+                </form>
+            </div>
+                <div>
+                    <img class="header_image" src="images/main-banner.jpg" alt="our office">
+                    <div class="banner_text">
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>
+                        lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
+                        Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
+                        saepe in consequatur inventore.orem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
+                        </p>
+
+                        <div>
+                        <button class="connect_button" type="submit"> Connect with us<i class="icon icon-right"></i></button>
+                    </div>
                 </div>
-    
         </header>
-
-    <main>
-<!-- Main Page Content -->
-        <article>
-            <section>
-                <h2>Welcome to Three Star Media</h2>
-                <p>
-                <img src="images/main-banner.jpg" alt="our office">
-                orem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
-                Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
-                saepe in consequatur inventore.
-                </p>
-                <div class="connect_botton">
-                <button type="submit"> Connect with us </button>
-                </div>
-            </section>
+        <main>
+             <!-- Main Page Content -->
+             <article>
 
             <section>
-                <h2> About Us</h2>
-                <p>
-                    <img src="images/about-us.jpg" alt="us">
+                <img class="about_image" src="images/about-us.jpg" alt="us">
+                    <h2>About Us</h2>
+                    <p>
                     Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                     Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                     saepe in consequatur inventore. Aut minus enim eum omnis sunt qui blanditiis earum est quibusdam 
@@ -61,136 +64,141 @@
                     facilis aut temporibus quaerat non voluptatem alias?
                 </p>
             </section>
-
-            <section>
-                <h2> Our Services </h2>
+            <h2> Our Services </h2>
+            <section class="services">
                 <div class="digital_box">
-                        <img src="images/digital.jpg" alt="digital">
+                        <img class="digital_image" src="images/digital.jpg" alt="digital">
                         <h3> Digital Transformation </h3>
                         <p>
                         Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                         Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
-                        saepe in consequatur inventore.
+                        saepe in consequatur inventore.Lorem Ipsum is simply dummy text of the printing and typesetting
+                         industry. 
                         </p>
-                        <div class="digital_button"> 
-                        <button type="submit"> Digital Plans </button> </div>
+                        <div> 
+                        <button type="submit"> Digital Plans<i class="icon icon-right"></i> </button> </div>
                 </div>
             </section>
 
             <section>
-                <div class="marketing_box">
-                    <img src="images/marketing.jpg" alt="marketing">
+                <div  class="marketing_box">
+                    <img class="marketing_image" src="images/marketing.jpg" alt="marketing">
                     <h3> Marketing </h3>
                     <p> Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                         Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                         saepe in consequatur inventore.
                     </p>
-                    <div class="marketing_button"> 
-                        <button type="submit"> Marketing Plans </button> 
+                    <div> 
+                        <button type="submit"> Marketing Plans<i class="icon icon-right"></i> </button> 
                     </div>
                 </div>
             </section>
 
             <section>
                 <div class="video_box">
-                    <img src="images/video.jpg" alt="video">
+                    <img class="video_image" src="images/video.jpg" alt="video">
                     <h3> Video Production </h3>
                     <p> Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                         Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                         saepe in consequatur inventore.
                     </p>
-                    <div class="video_button"> 
-                    <button type="submit"> Video Plans </button> 
+                    <div> 
+                    <button type="submit"> Video Plans<i class="icon icon-right"></i> </button> 
                     </div>
                 </div>
             </section>
 
             <section>
                 <div class="web_box">
-                        <img src="images/web.jpg" alt="web">
+                        <img class="web_image" src="images/web.jpg" alt="web">
                         <h3> Web Development </h3>
                         <p>
                         Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                         Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                         saepe in consequatur inventore.
                         </p>
-                        <div class="web_button"> 
-                        <button type="submit"> Web Plans </button> 
+                        <div> 
+                        <button type="submit"> Web Plans<i class="icon icon-right"></i> </button> 
                         </div>
                 </div>
             </section>
 
             <section>
                 <div class="print_box">
-                    <img src="images/print.jpg" alt="print">
+                    <img class="print_image" src="images/print.jpg" alt="print">
                     <h3> Print </h3>
                     <p> Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                         Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                         saepe in consequatur inventore.
                     </p>
-                    <div class="print_button"> 
-                    <button type="submit"> Print Plans </button> 
+                    <div>
+                    <button type="submit"> Print Plans<i class="icon icon-right"></i> </button> 
                     </div>
                 </div>
             </section>
 
-            <section>
-                <h3>Our Vision </h3>
-                    <img src="images/vision.jpg" alt="vision">
-                    <p>
-                    Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
-                    Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
-                    saepe in consequatur inventore. Aut minus enim eum omnis sunt qui blanditiis earum est quibusdam 
-                    doloribus 33 nulla dolor. 
-                    </p>
-                <div class="learn_button"> 
-                <button type="submit"> Learn More </button> 
+                    <img class="vision_image" src="images/vision.jpg" alt="vision">
+                    <div class="vision_text">
+                        <h3>Our Vision </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
+                            Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
+                            saepe in consequatur inventore. Aut minus enim eum omnis sunt qui blanditiis earum est quibusdam 
+                            doloribus 33 nulla dolor. 
+                        </p>
+                    <div> 
+                <button class="learn_button" type="submit"> Learn More<i class="icon icon-right"></i> </button> 
                 </div>
-            </section>
+                </div>
 
             <h2> Our Team </h2>
             <section>
-                    <img src="images/john.jpg" alt="john">
+                    <img class="john_image" src="images/john.jpg" alt="john">
                     <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
+                    <h5>CEO and Co-owner</h5>
                     <p>
                     Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                     Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                     saepe in consequatur inventore.
                     </p>
-
-                    <img src="images/bob.jpg" alt="bob">
+            </section>
+            
+            <section>
+                    <img class="bob_image" src="images/bob.jpg" alt="bob">
                     <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
+                    <h5>CFO and Co-owner</h5>
                     <p>
                     Lorem ipsum dolor sit amet. In molestias velit aut eaque ratione sed reiciendis deserunt. 
                     Qui ipsam tempora sit dolorum enim qui debitis nobis et reprehenderit aliquam vel repellendus 
                     saepe in consequatur inventore.
                     </p>
-
             </section>
         </article>
 <!-- Contact Form -->
+<div class="contact_us">
         <form method="post" action="index.html">
             <h3>Contact Us</h3>
-            <div class="formbox">
+            <h4> Send us a message</h4>
+            <div class="form_box">
                 <div class="texts">
-                    <label for="fullname">Your Name</label>
+                    <label for="fullname">Full Name</label>
                     <input type="text" id="fullname" name="fullname">
 
                     <label for="email">Your Email</label>
                     <input type="text" id="email" name="email">
 
-                    <label for="message">Your Message</label>
+                    <label for="message">Message</label>
                     <textarea id="message" name="message"></textarea>
                 </div>
-                <input type="submit" name="submit" id="submit" value="SEND">
+                <input type="submit" name="submit" id="submit" value="Send">
             </div>
         </form>
+</div>
            
 <!-- Table --> 
+<div class="table">
         <table>
-                <caption> Hours of Operation </caption>
+                <h4> Hours of Operation </h4>
                     <thead>
                   <tr>
                     <th>Days</th>
@@ -209,19 +217,21 @@
                   </tr>
                 </tbody>
         </table>
+    </div>
     </main>
-<!-- Map -->   
-    <h3> Location </h3>
+<!-- Map -->
+    
     <div class="mapEmbed">
+        <h3> Location </h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89646.97370590163!2d-75.805956558114!3d45.39990291309992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718ab4c4e65%3A0x86fd3e15e3355caf!2sAlgonquin%20College%2C%20Building%20A!5e0!3m2!1sen!2sca!4v1637855216769!5m2!1sen!2sca" 
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 <!-- Footer -->
     <footer>
         <div class="footer">
-        <p>&copy; Copyright Three Star Media 2020.
-            <br>
-            All images are taken from usplash
+        <p>&copy; Copyright Three Star Media 2020</p>
+        <br>
+        <p>All images are taken from usplash</p>
         </p>
         </div>
     </footer>

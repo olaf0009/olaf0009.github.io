@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/********** FONT IMPORT *********/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+/*********** CONTENT **********/
+html{
+    font-size:16px;
+    font-family: 'oswald' , sans-serif;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    margin:10px;
+}
+
+/********** HEADER ************/
+header{
+    position:relative;
+    padding:10px;
+    margin:5px 0;
+
+    /* display:flex;
+    flex-direction:row;
+   /* background-color:#222; */
+}
+/* .logo_box{
+    display:flex;
+    background-color:#c78c06;
+}
+*/
+.header_logo{
+    position:absolute;
+    margin:10px;
+   
+}
+.header_image{
+    width:100%;
+}
+.about_image{
+    width:100%;
+}
+.digital_image{
+    width:100%;
+}
+.marketing_image{
+    width:100%;
+}
+.video_image{
+    width:100%;
+}
+.web_image{
+    width:100%;
+}
+.print_image{
+    width:100%;
+}
+.vision_image{
+    width:100%;
+}
+.john_image{
+    width:100%;
+}
+.bob_image{
+    width:100%;
+}
+.banner_text{
+    background-color:rgba(34, 34, 34, 0.619);
+    position:relative;
+    top:-420px;
+    color:white;
+    display:inline-block;
+    width: 98.5%;
+    padding: 10px;
+}
+/********** NAV ***************/
+ul{
+    /* background-color:#222; */
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    text-align:center;
+}
+li{
+    /* background-color:aqua; */
+    padding:10px;
+    flex-grow:1;
+    flex-basis: 0;
+    text-align: center;
+    font-size:24px;
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px;
+    width:100%;
+}
+
+a{
+    color:#c78c06;
+    text-decoration:none;
+    /*font-weight:bold;*/
+}
+
+.active{
+    background-color:#c78c06;
+    color:#222;
+    width:100%;
+    padding:10px;
+
+}
+.search_bar{
+    /*background-color: tomato;*/
+    /*display:flex;*/
+    flex-wrap:wrap;
+    flex-direction: row;
+    flex-basis:0;
+    flex-grow:1;
+    width:100%-2px;
+    padding:10px;
+    justify-content:center;
+}
+#search{
+    margin:10px;
+    padding:10px;
+    font-size:17px;
+    float:left;
+    /*display:flex;*/
+    width:80%;
+}
+.icon-zoom{
+    color:#c78c06;
+    border: 2px solid #c78c06;
+    display:flex;
+    padding:10px;
+    width:20px;
+    /* background: #222; */
+    font-size:17px;
+    position:relative;
+} 
+/******* ARTICLE *******************/
+
+main{
+    /* padding:0 10px; */
+}
+h1{
+    font-size:64px;
+    font-weight:bold;
+    padding:10px;
+    margin-bottom:10px;
+}
+h2{
+    font-size:32px;
+    font-weight:bold;
+    padding:10px;
+    margin-bottom:10px;
+}
+h3{
+    font-size:26px;
+    font-weight:bold;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+h5{
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding:10px;
+    border-bottom: 2px solid #c78c06;
+    border-color:#c78c06;
+}
+
+h4{
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding:10px;
+}
+section{
+    padding:10px;
+    margin:5px 0;
+    background-color:#ffe6ac;
+}
+p{
+    display:inline;
+    padding:10px;
+    margin: 10px;
+    line-height: 1.5;
+}
+footer{
+    color:#c78c06;
+    text-align:left;
+    padding: 10px;
+    background-color:#222;
+}
+button{
+    background-color:#222;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+    margin:10px;
+    }
+.connect_button{
+    background-color:#c78c06;
+    border: none;
+    color:#222;
+    padding: 32px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin:20px;
+}
+.vision_text{
+    position:relative;
+    top:-300px;
+    color:white;
+    display:inline-block;
+}
+
+.learn_button{
+    background-color:#222;
+    border:2px solid #c78c06;
+    color:white;
+    padding:15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin:20px;
+}
+.icon-right{
+    padding:10px;
+
+}
+.services{
+    display:flex;
+}
+.contact_us{
+    /* background-color: turquoise; */
+}
+.form_box{
+    padding:10px;
+}
+#fullname{
+    display:flex;
+    width:99%;
+    /*flex-basis:0;
+    flex-grow:1;*/
+    margin: 10px;
+
+}
+#email{
+    display:flex;
+    margin: 10px;
+    width:99%;
+}
+#message{
+    display:flex;
+    margin: 10px;
+    width:99%;
+}
+#submit{
+    display:flex;
+    background-color:#222;
+    color:#c78c06;
+    margin: 10px;
+    font-size:17px;
+    font-weight:bold;
+}
+.table{
+    background-color:white;
+}
+table{
+   /* background-color: wheat; */
+    border: 1px solid black;
+    width:100%;
+}
+thead{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    padding:10px;
+    background-color:#ffe6ac;
+}
+td{
+    border: 1px solid black;
+    padding:10px;
+}
+/******* Desktop Styling *************/
+
+/*** @media screen and (min-width:760px){
+    .container{
+        margin:0 auto;
+        width:80%;
+        max-width:1260px;
+    }
+}
+******/
